@@ -1,5 +1,6 @@
 {
-  "name": "realtime-examples",
+  "name": "@ably-labs/vite-component-locking",
+  "license": "Apache-2.0",
   "private": true,
   "version": "1.0.0",
   "scripts": {
@@ -10,26 +11,19 @@
   },
   "dependencies": {
     "@ably/spaces": "0.2.0",
-    "@heroicons/react": "^2.0.18",
-    "ably": "^1.2.45",
-    "classnames": "^2.5.1",
-    "lodash.debounce": "^4.0.8",
+    "ably": "1.2.45",
+    "classnames": "^2.3.2",
+    "nanoid": "^5.0.1",
     "random-words": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.16.0"
+    "usehooks-ts": "^2.9.1"
   },
   "devDependencies": {
-    "@types/lodash.debounce": "^4.0.7",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
     "@vitejs/plugin-react": "^4.1.0",
-    "eslint-plugin-prettier": "5.0.0",
-    "prettier": "3.0.1",
     "typescript": "5.2.2",
     "vite": "^4.4.9"
-  },
-  "workspaces": [
-    "./examples/*"
-  ]
+  }
 }

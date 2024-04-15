@@ -1,31 +1,35 @@
-# Create React App
+## ✈️ Overview
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This repository contains examples on how to use Ably to build realtime features, like avatar stacks or live cursors.
 
-## Deploy Your Own
+You'll find them in the `examples` folder, together with instructions on how to run them.
 
-Deploy your own Create React App project with Vercel.
+To see what else is possible with Ably, check out our other [realtime examples](https://ably.com/examples?utm_source=ably-labs&utm_medium=github&utm_campaign=realtime-examples).
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/vercel/tree/main/examples/create-react-app&template=create-react-app)
+## 🏃 Requirements
 
-_Live Example: https://create-react-template.vercel.app/_
+- [Node.js](https://nodejs.org/en/)
+- [Ably API Key](https://ably.com/sign-up?utm_source=ably-labs&utm_medium=github&utm_campaign=realtime-examples)
+- [Yarn](https://yarnpkg.com/)
 
-## Available Scripts
+## ⚙️ Running all examples
 
-In the project directory, you can run:
+You can also run a single app that shows all the examples:
 
-### `npm start`
+- Fork or clone the [Examples Repo](https://github.com/ably-labs/realtime-examples).
+- Sign up for an account on [Ably](https://ably.com/sign-up?utm_source=ably-labs&utm_medium=github&utm_campaign=realtime-examples) and get an API KEY.
+- Rename `.env.example` to `.env` and fill in your API key in the `VITE_ABLY_KEY` environment variable.
+- Run `yarn` to install dependencies.
+- Run `yarn dev` and go to http://localhost:5173/
 
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🤔 Support, feedback and troubleshooting
 
-The page will reload when you make changes. You may also see any lint errors in the console.
+- [Create a GitHub Issue](https://github.com/ably-labs/realtime-examples/issues)
+- [Join our Discord server](https://discord.gg/q89gDHZcBK)
+- [Follow us on Twitter](https://twitter.com/ablyrealtime)
+- [Use our SDKs](https://github.com/ably/)
+- [Visit our website](https://ably.com?utm_source=ably-labs&utm_medium=github&utm_campaign=realtime-examples)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+[![Ably logo](https://static.ably.dev/badge-black.svg?serverless-websockets-quest)](https://ably.com?utm_source=ably-labs&utm_medium=github&utm_campaign=realtime-examples)
